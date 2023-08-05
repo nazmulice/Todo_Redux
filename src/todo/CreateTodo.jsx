@@ -1,7 +1,7 @@
 
 const CreateTodo = () => {
     return (
-      <div className="container-fluid">
+      <div className="container">
         <div className="row">
             <div className="col-md-10">
                   <input type="text" placeholder="Create todo" className="form-control" />  
