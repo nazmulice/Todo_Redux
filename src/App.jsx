@@ -3,7 +3,6 @@ import TodoPage from "./pages/TodoPage";
 function App() {
   return (
     <div className="container">
-      
       <TodoPage />
     </div>
   );

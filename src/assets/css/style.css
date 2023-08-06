@@ -1,8 +1,60 @@
-
 body {
-  background-color: #92cfec; 
+  background: linear-gradient(100deg, #402, #006);
+  background-color: #ffffff;
 }
-.hed{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 50px;
+h1 {
+  font-size: 45px;
+  font-weight: 600;
+  color: rgb(252, 252, 252);
+  padding: 10px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.70rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #21e90e;
+  outline: 0;
+  box-shadow: 0 0 0 0.3rem rgba(14, 236, 80, 0.25);
+}
+
+
+/* Basic styling for the table */
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #c2c3ea;
+  margin: 20px 0;
+}
+
+/* Styling for table headers */
+.styled-table th {
+  background-color: #50fc3d;
+  padding: 10px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Styling for table cells */
+.styled-table td {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  font-size: 17px;
+}
+
+/* Zebra-striping for better readability */
+.styled-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
 }

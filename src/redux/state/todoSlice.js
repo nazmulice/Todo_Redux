@@ -7,8 +7,12 @@ const todoSlice = createSlice({
     },
     reducers: {
         AddTodo: (state, action) => {
-            
-            state.value.push(action.payload)
+            const newTodo = action.payload.trim();
+
+            if (newTodo !== "") {
+                state.value.push(newTodo);
+                
+            }
         },
         RemoveTodo: (state, action) => {
             state.value.splice(action.payload, 1)

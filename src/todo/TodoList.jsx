@@ -8,7 +8,7 @@ const TodoList = () => {
     <div className="container-fluid">
       <div className="row">
         <div className="col-10">
-          <table className="table">
+          <table className="table styled-table">
             <thead>
               <tr>
                 <th>No</th>
